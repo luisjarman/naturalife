@@ -292,21 +292,31 @@
 <!-- contact section -->
 <section id="contact" class="section">
     <div class="container">
+        <div class="row" style="text-align: center">
+            <h1>Contacta con nosotros</h1>
+            <br>
+        </div>
+        <div class="row" style="text-align: center">
+            <p style="font-size: large">
+                LLámanos al 727748642 (Carlos Sánchez)<br>
+                Lunes a Viernes de 10:00 a 14:00 y de 16:30 a 20:00<br>
+                Sábados de 10:00 a 14:00
+            </p>
+
+        </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2 conForm">
-                <h5>Contacta con nosotros</h5>
+
                 <p style="font-size: large">Envíanos tu idea y te remitiremos un presupuesto a medida en menos de 48h.</p>
                 <div id="message"></div>
-                <form method="post" action="php/contact.php" name="cform" id="cform">
+                <form method="POST" action="http://formspree.io/naturalifesevilla@gmail.com">
                     <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
-                           placeholder="Your name...">
-                    <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr"
-                           placeholder="Email Address...">
-                    <textarea name="comments" id="comments" cols="" rows=""
-                              class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
-                              placeholder="Project Details..."></textarea>
-                    <input type="submit" id="submit" name="send" class="submitBnt" value="Send your query">
-                    <div id="simple-msg"></div>
+                           placeholder="Tu nombre...">
+                    <input type="email" name="email" placeholder="Tu correo electrónico..." class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr"
+                    >
+                    <textarea name="message" placeholder="Escribe aquí el mensaje..." name="comments" id="comments" cols="" rows=""
+                              class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></textarea>
+                    <button type="submit" class="submitBnt">Enviar</button>
                 </form>
             </div>
         </div>
