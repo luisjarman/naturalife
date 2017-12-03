@@ -17,14 +17,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/font-icon.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
 <!-- header section -->
 <section class="banner" role="banner">
     <header id="header">
@@ -32,8 +33,6 @@
             <nav class="navigation" role="navigation">
                 <ul class="primary-nav">
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#works">Noticias</a></li>
-                    <li><a href="#teams">Galería</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
@@ -44,12 +43,13 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="banner-text text-center">
                 <!--<h1>Naturalife</h1>-->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -84,13 +84,28 @@
                 </div>
                 <br>
                 <br>
-                <p class="carouselSubtext">NO TE PIERDAS NUESTRAS NOVEDADES Y
-                    SIGUENOS EN FACEBOOK !!
-                    Natural LIFE Sevilla</p>
 
-                <a href="#cesped" class="btn btn-large descubreNuestras">INSTALACIÓN DE CÉSPED ARTIFICIAL</a></div>
+                <div class="row">
+                    <div class="col-sm-12" >
+                        <a href="#cesped" class="btn btn-large descubreNuestras">INSTALACIÓN DE CÉSPED ARTIFICIAL</a></div>
+                </div>
+                <div class="row" style="border: 1px #ffffff solid">
+                    <div class="col-sm-3" style="margin-right: -100px; margin-top: 25px">
+                        <a href="https://www.facebook.com/NaturalLIFESevilla/" target="_blank"><img src="images/facebook.png" height="100" width="100"></a>
 
-            <!-- banner text -->
+                    </div>
+                    <div class="col-sm-9">
+                        <p class="carouselSubtext" style="line-height: 35px">NO TE PIERDAS NUESTRAS NOVEDADES Y
+                            SÍGUENOS EN FACEBOOK !!</p>
+                    </div>
+
+                </div>
+
+                </div>
+
+
+
+                <!-- banner text -->
         </div>
     </div>
 </section>
@@ -200,35 +215,44 @@
 <section id="cesped" class="services service-section">
     <div class="container">
         <div class="row">
-            <h1>INSTALACIÓN DE CÉSPED ARTIFICIAL</h1>
+            <h1  style="font-size: 63px;">INSTALACIÓN DE CÉSPED ARTIFICIAL</h1>
             <br>
             <br>
         </div>
         <div class="col-sm-6">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="-webkit-box-shadow: 1px 10px 36px 0px rgba(0,0,0,0.75);-moz-box-shadow: 1px 10px 36px 0px rgba(0,0,0,0.75);box-shadow: 1px 10px 36px 0px rgba(0,0,0,0.75);">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
 
                     <div class="carouselZindex item active">
-                        <img class="carouselArriba" src="images/carouselArriba1.jpg">
+                        <img class="carouselArriba" src="images/ces1.jpg">
                     </div>
 
                     <div class="carouselZindex item">
-                        <img class="carouselArriba" src="images/carouselArriba2.jpg">
+                        <img class="carouselArriba" src="images/ces2.jpg">
                     </div>
 
                     <div class="carouselZindex item">
-                        <img class="carouselArriba" src="images/carouselArriba3.jpg">
+                        <img class="carouselArriba" src="images/ces3.jpg">
                     </div>
                     <div class="carouselZindex item">
-                        <img class="carouselArriba" src="images/carouselArriba4.jpg">
+                        <img class="carouselArriba" src="images/ces4.jpg">
+                    </div>
+                    <div class="carouselZindex item">
+                        <img class="carouselArriba" src="images/ces5.jpg">
+                    </div>
+                    <div class="carouselZindex item">
+                        <img class="carouselArriba" src="images/ces6.jpg">
                     </div>
                 </div>
 
@@ -246,19 +270,31 @@
         </div>
         <div class="col-sm-6" style="font-size: medium">
             <p style="font-size: large">
-                MANTENIMIENTO DE CÉSPED ARTIFICIAL DESDE 2,00€/ M2:
+                <b>MANTENIMIENTO DE CÉSPED ARTIFICIAL DESDE 2,00€/ M2:</b>
             </p>
-            <ul>
-                <li>- LIMPIEZA Y DESINFECCIÓN</li>
-                <li>- REPARACIÓN DE ROTURAS EN EL CÉSPED ARTIFICIAL</li>
-                <li>- DESPEGUE DE JUNTAS</li>
-                <li>- RECUPERACIÓN DEL ASPECTO INCIAL</li>
-                <li>- RECEBADO DE ARENA DE SÍLICE</li>
-                <li>- CEPILLADO MECÁNICO</li>
-                <li>- SUSTITUCIÓN DE PAÑOS</li>
-                <li>- REPARACIÓN DE LA BASE POR HUNDIMIENTOS</li>
-                <li>- DES-COMPACTACIÓN</li>
-                <li>- RETIRADA Y SUSTITUCIÓN DE CÉSPED ARTIFICIAL</li>
+            <!--<ul class="list-group">-->
+                <!--<li class="list-group-item">LIMPIEZA Y DESINFECCIÓN</li>-->
+                <!--<li class="list-group-item">REPARACIÓN DE ROTURAS EN EL CÉSPED ARTIFICIAL</li>-->
+                <!--<li class="list-group-item">DESPEGUE DE JUNTAS</li>-->
+                <!--<li class="list-group-item">RECUPERACIÓN DEL ASPECTO INCIAL</li>-->
+                <!--<li class="list-group-item">RECUPERACIÓN DEL ASPECTO INCIAL</li>-->
+                <!--<li class="list-group-item">RECUPERACIÓN DEL ASPECTO INCIAL</li>-->
+                <!--<li class="list-group-item">SUSTITUCIÓN DE PAÑOS</li>-->
+                <!--<li class="list-group-item">REPARACIÓN DE LA BASE POR HUNDIMIENTOS</li>-->
+                <!--<li class="list-group-item">DES-COMPACTACIÓN</li>-->
+                <!--<li class="list-group-item">RETIRADA Y SUSTITUCIÓN DE CÉSPED ARTIFICIAL</li>-->
+            <!--</ul>-->
+            <ul class="myStuff" style="padding-left: 2.7%;">
+                <li class="myStuff">LIMPIEZA Y DESINFECCIÓN</li>
+                <li class="myStuff">REPARACIÓN DE ROTURAS EN EL CÉSPED ARTIFICIAL</li>
+                <li class="myStuff">DESPEGUE DE JUNTAS</li>
+                <li class="myStuff">RECUPERACIÓN DEL ASPECTO INCIAL</li>
+                <li class="myStuff">RECEBADO DE ARENA DE SÍLICE</li>
+                <li class="myStuff">CEPILLADO MECÁNICO</li>
+                <li class="myStuff">SUSTITUCIÓN DE PAÑOS</li>
+                <li class="myStuff">REPARACIÓN DE LA BASE POR HUNDIMIENTOS</li>
+                <li class="myStuff">DES-COMPACTACIÓN</li>
+                <li class="myStuff">RETIRADA Y SUSTITUCIÓN DE CÉSPED ARTIFICIAL</li>
 
             </ul>
             <br>
@@ -268,9 +304,19 @@
         <br>
         <br>
         <div class="row" >
-            <div style="margin-left:  40%">
+            <div style="margin-left:  60%">
 
-                <button type="button" class="btn btn-success" style="font-size: large;">Ver Modelos</button>
+                <button data-toggle="modal" data-target="#myModal" type="button" class="btn btn-success" style="font-size: large;">Ver Modelos</button>
+
+                <div id="myModal" class="modal fade" tabindex="-1" role="dialog" >
+                    <div class="modal-dialog" style="width: 80%; height: 90%;">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="images/cespedModelos.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -279,16 +325,7 @@
 </section>
 <!-- services section -->
 
-<!-- our team section -->
 
-                    <ul class="social-icons clearfix" style="font-size: xx-large">
-                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                        <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
-                    </ul>
-<!-- our team section -->
 <!-- contact section -->
 <section id="contact" class="section">
     <div class="container">
@@ -298,7 +335,7 @@
         </div>
         <div class="row" style="text-align: center">
             <p style="font-size: large">
-                LLámanos al 727748642 (Carlos Sánchez)<br>
+                LLámanos al <b>727 748 642</b> (Carlos Sánchez)<br>
                 Lunes a Viernes de 10:00 a 14:00 y de 16:30 a 20:00<br>
                 Sábados de 10:00 a 14:00
             </p>
@@ -330,33 +367,17 @@
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-6">
-                    <h5>Our Office Location</h5>
-                    <p>Collins Street West Victoria 8007 Australia.<br>
-                        1800 1234 56789 / 98532100987<br>
-                        support@lexis.com</p>
-                    <p>Copyright © 2015 Lexis Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by
-                        <a href="http://www.designstub.com/">Designstub</a></p>
+
+                    <p>Diseñado por: <br>
+                        Luis Jarman Guedes<br>
+                       luisjarman@gmail.com<br>
+
                 </div>
                 <div class="footer-col col-md-3">
-                    <h5>Services We Offer</h5>
-                    <p>
-                    <ul>
-                        <li><a href="#">Digital Strategy</a></li>
-                        <li><a href="#">Websites</a></li>
-                        <li><a href="#">Videography</a></li>
-                        <li><a href="#">Social Media</a></li>
-                        <li><a href="#">User Experience</a></li>
-                    </ul>
-                    </p>
+
                 </div>
                 <div class="footer-col col-md-3">
-                    <h5>Share with Love</h5>
-                    <ul class="footer-share">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+
                 </div>
             </div>
         </div>

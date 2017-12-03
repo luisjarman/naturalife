@@ -9,7 +9,20 @@
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
-
+.myStuff ul {
+	list-style: none;
+	padding: 0;
+}
+.myStuff li {
+	padding-left: 1.3em;
+}
+.myStuff li:before {
+	content: "\f00c"; /* FontAwesome Unicode */
+	font-family: FontAwesome;
+	display: inline-block;
+	margin-left: -1.3em; /* same as padding-left set on li */
+	width: 1.3em; /* same as padding-left set on li */
+}
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,500,600,700);
 .image-cropper {
